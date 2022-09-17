@@ -1,0 +1,100 @@
+.pag-news-date 
+{
+	font-family: "courier new", monospace;
+}
+
+.project-thumb
+{
+	height: auto;
+}
+
+.centered-block 
+{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+/** next 3 definitions are for centering sponsor images */
+.row-sponsor-images > div
+{
+	height: 100px;
+	white-space: nowrap;
+}
+
+.sponsor-helper
+{
+	display: inline-block;
+	vertical-align: middle;
+	height: 100%;
+}
+
+.sponsor-image
+{
+	display: inline-block;
+	margin-left: auto;
+	margin-right: auto;
+	vertical-align: middle;
+}
+
+#main-container {
+	background: #EEEEEE;
+	padding-bottom: 5px;
+}
+
+/** override theme settings **/
+
+body {
+	padding-top: 41px;
+}
+
+.navbar {
+	min-height: 35px;
+}
+
+.navbar-brand {
+	font-size: 14px;
+	padding: 10px 15px;
+	line-height: 15px;
+	height: 35px;
+}
+
+.nav > li > a {
+	padding: 10px 10px;
+}
+
+.navbar-toggle {
+	margin-top: 3px;
+	margin-bottom: 3px;
+}
+
+/* reduce jumbotron spacing */
+.jumbotron {
+	padding: 15px 10px;
+}
+@media screen and (min-width: 768px) {
+  .jumbotron {
+    padding: 20px 0;
+  }
+}
+
+/* don't use largest expansion size */
+@media (min-width: 1200px) {
+  .container {
+    width: 970px;
+  }
+}
+
+/* center navbar elements */
+@media (min-width: 768px) {
+  .navbar.center .navbar-inner {
+    text-align: center;
+  }
+
+  .navbar.center .navbar-inner .nav {
+    display: inline-block;
+    float: none;
+    margin-bottom: -5px;
+  }
+}

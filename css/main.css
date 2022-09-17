@@ -1,0 +1,119 @@
+ul#navigation li.external:hover .icon, ul#navigation li.currentmenu .icon{
+	color: #03cc85;
+}
+.ul-boxed li {
+	border-left-color:#03cc85;
+}
+ul.ul-card li .dy .year {
+	background-color: #03cc85;
+}
+ul.ul-dates div.dates span {
+	background-color: #03cc85;
+}
+ul.timeline li .date {
+	background: #03cc85;
+}
+ul.timeline li .data {
+	border-left-color: #03cc85;
+}
+.ul-withdetails li .imageoverlay {
+	background: #03cc85;
+}
+.cd-active.cd-dropdown > span {
+	color: #03cc85;
+}
+.cd-active.cd-dropdown ul li span:hover {
+	background: #03cc85;
+}
+.pitems .pubmain .pubassets {
+	border-top-color:#03cc85; 
+}
+.pitems .pubmain .pubassets a:hover,.pitems .pubmain .pubassets a:focus,.pitems .pubmain .pubassets a.pubcollapse {
+	background: #03cc85;
+}
+.contact-office .icon-huge, .contact-lab .icon-huge {
+	color: #03cc85;
+}
+
+/* socpndary color 
+**************************************************/
+ul.ul-card li .dy .degree {
+	background-color: #03bb7a;
+}
+ul.ul-dates div.dates span:last-child {
+	background-color: #03bb7a;
+}
+ul.timeline li.open .circle {
+	background-color: #03bb7a;
+}
+ul.timeline li.open .data {
+	border-color: #03bb7a;
+}
+#labp-heads-wrap {
+	background-color: #03bb7a;
+}
+#labp-heads-wrap:after{
+	border-top-color: #03bb7a;
+}
+
+/* ul-dates
+ **************************************************/
+ul.ul-dates,ul.ul-dates-gray {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+ul.ul-dates li,ul.ul-dates-gray li {
+	margin-bottom: 15px; /*margin-left:  20px;
+	*/
+}
+
+ul.ul-dates div.dates,ul.ul-dates-gray div.dates {
+	float: left;
+	width: 75px;
+}
+
+ul.ul-dates div.dates span,ul.ul-dates-gray div.dates span {
+	/*background-color: #03cc85;*/
+	padding: 6px;
+	display: block;
+	text-align: center;
+	color: #fff;
+	position: relative;
+}
+
+ul.ul-dates-gray div.dates span {
+	background-color: #BBBBBB;
+}
+
+/*ul.ul-dates div.dates span:last-child {
+	background-color: #03bb7a;
+}*/
+
+ul.ul-dates-gray div.dates span:last-child {
+	background-color: #979797;
+}
+
+ul.ul-dates-gray div.dates span:first-child,ul.ul-dates div.dates span:first-child {
+	-webkit-box-shadow: 0px 2px 6px -3px rgba(68, 68, 68, 0.5);
+	box-shadow: 0px 2px 6px -3px rgba(68, 68, 68, 0.5);
+	z-index: 3;
+	position: relative;
+}
+
+ul.ul-dates div.content,ul.ul-dates-gray div.content {
+	margin-left: 90px;
+	min-height: 70px;
+	padding-top: 10px;
+}
+
+ul.ul-dates div.content h4,ul.ul-dates-gray div.content h4 {
+	font-weight: 400;
+	font-size: 16px;
+	margin-top: 0;
+}
+
+ul.ul-dates div.content p,ul.ul-dates-gray div.content p {
+	font-size: 13px;
+}
