@@ -1,9 +1,0 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<script>
-  var target = "https://docs.google.com/document/d/16GdwVNhPyTlmMM_djri8EBCnVHN5PpgtWexVMAVfOGg/edit?usp=sharing";
-  window.location.href = target;
-</script>
-</head>
-</html>
